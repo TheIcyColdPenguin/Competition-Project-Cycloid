@@ -81,7 +81,7 @@ An epicycloid is the curve traced by a circle as it rolls on the outside of the 
 
 ### How It Works(Interface):
 
--   When the page ins opened, the drawing is displayed with the default values.
+-   When the page is opened, the drawing is displayed with the default values.
 -   These values can be changed using the sliders.
 
 <img src="./readme_assets/screenshot_explanation.png" title="" alt-text="" width="">
