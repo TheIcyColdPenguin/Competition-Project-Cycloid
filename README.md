@@ -120,10 +120,12 @@ An epicycloid is the curve traced by a circle as it rolls on the outside of the 
 
 ### Prerequisites:
 
--   The folder can be downloaded [here]()-
+-   The folder can be downloaded by-
+    -   going to the github repository and downloading the entire repository as a ZIP file.
+    -   Next, unzip the folder to a new location.
 -   To get the program running on other devices, a local server is required.
 -   [Python](https://www.python.org/downloads/release/python-385/ "Download Python here") is recommended, but other software can also be used (Note: This documentaion only covers python).
--   First, open a terminal and `cd` to the folder in which the project files are contained.
+-   First, open a terminal and `cd` to the `WEBPAGE` folder in which the project files are contained.
 -   Next, check the version of python being used with the command-
     ```
     python -V
@@ -159,41 +161,36 @@ An epicycloid is the curve traced by a circle as it rolls on the outside of the 
 <tbody>
 <tr>
 <td style="text-align:left">1.</td>
-<td style="text-align:left">Download Folder</td>
-<td style="text-align:left"><a href="new_link_here">new_link_here</a></td>
-</tr>
-<tr>
-<td style="text-align:left">2.</td>
 <td style="text-align:left">Github Repository</td>
 <td style="text-align:left"><a href="https://github.com/TheIcyColdPenguin/Competion-Project-Cycloid">https://github.com/TheIcyColdPenguin/Competion-Project-Cycloid</a></td>
 </tr>
 <tr>
-<td style="text-align:left">3.</td>
+<td style="text-align:left">2.</td>
 <td style="text-align:left">Download Python</td>
 <td style="text-align:left"><a href="https://www.python.org/downloads/release/python-385/">https://www.python.org/downloads/release/python-385/</a></td>
 </tr>
 <tr>
-<td style="text-align:left">4.</td>
+<td style="text-align:left">3.</td>
 <td style="text-align:left">p5.js</td>
 <td style="text-align:left"><a href="https://p5js.org">https://p5js.org</a></td>
 </tr>
 <tr>
-<td style="text-align:left">5.</td>
+<td style="text-align:left">4.</td>
 <td style="text-align:left">Epicycloid</td>
 <td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Epicycloid">https://en.wikipedia.org/wiki/Epicycloid</a></td>
 </tr>
 <tr>
-<td style="text-align:left">6.</td>
+<td style="text-align:left">5.</td>
 <td style="text-align:left">Spirograph</td>
 <td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Spirograph">https://en.wikipedia.org/wiki/Spirograph</a></td>
 </tr>
 <tr>
-<td style="text-align:left">7.</td>
+<td style="text-align:left">6.</td>
 <td style="text-align:left">Cardioid</td>
 <td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Cardioid">https://en.wikipedia.org/wiki/Cardioid</a></td>
 </tr>
 <tr>
-<td style="text-align:left">8.</td>
+<td style="text-align:left">7.</td>
 <td style="text-align:left">Nephroid</td>
 <td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Nephroid">https://en.wikipedia.org/wiki/Nephroid</a></td>
 </tr>
