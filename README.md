@@ -25,6 +25,9 @@ The program consists of:
     -   Sliders to adjust the parameters for drawing the cycloid
 
 This project was created using HTML and JavaScript with the help of the [p5.js] library.
+
+<br />
+
 <img src="./readme_assets/screenshot.png" alt-text="Screenshot of program" title="screenshot of program" width="700" />
 
 ---
@@ -45,7 +48,7 @@ An epicycloid is the curve traced by a circle as it rolls on the outside of the 
 
 #### Fun facts about cycloids-
 
--   A speacial kind of cyloid, called the brachistochrone curve, is the quickest path between two points when only under the influence of gravity.  
+-   A special kind of cyloid, called the brachistochrone curve, is the quickest path between two points when only under the influence of gravity.  
     ![Gif of three balls rolling down three different slopes](https://upload.wikimedia.org/wikipedia/commons/6/63/Brachistochrone.gif "The ball rolling on the brachistochrone curve reaches the endpoint the fastest")
 
 ---
@@ -64,11 +67,11 @@ An epicycloid is the curve traced by a circle as it rolls on the outside of the 
 ### How It Works(Source):
 
 -   #### index.html:
-    -   It is the entry point of the program. It serves the JavaScript programs for the browser to run.
+    -   It is the entry point of the program. It serves the JavaScript files for the browser to run.
 -   #### sketch.js:
-    -   It is the main JavaScript file that contorls the look of the web page.
-    -   This file handles the color scheme and drawing of background.
-    -   It also manages the events trigrrered by the interactive elements on the page.
+    -   It is the main JavaScript file that controls the look of the web page.
+    -   This file handles the color scheme and drawing of the background and menu.
+    -   It also manages the events trigerred by the interactive elements on the page.
     -   The image received from Cycloid.js is displayed synchronously.
 -   #### Cycloid.js:
     -   It is the supplementary file that controls the logic for drawing the cycloid.
@@ -81,37 +84,37 @@ An epicycloid is the curve traced by a circle as it rolls on the outside of the 
 
 ### How It Works(Interface):
 
--   When the page is opened, the drawing is displayed with the default values.
+-   When the page is launched, the drawing is displayed with the default values.
 -   These values can be changed using the sliders.
 
 <img src="./readme_assets/screenshot_explanation.png" title="" alt-text="" width="">
 
 ### Controls:
 
-##### There are three sliders and one checkbox for the user to play with
+##### There are three sliders and one checkbox for the user to interact with:
 
 ###### Checkbox:
 
 -   It toggles between animation and static mode.
-    -   When in animation mode, the program draws only one line at a time
-    -   When in static mode, the program displays the entire drawing in one go
+    -   When in animation mode, the program draws only one line at a time.
+    -   When in static mode, the program displays the entire drawing in one go.
 
 ###### Slider(Radius):
 
 -   It changes the radius of the circle in which the diagram is drawn.
 -   The minimum value is 50 pixels, while the maximum value is 500.
-    -   It should be noted that if a circle with a radius of 500 pixels extends past the edges of the screen, the program will lower the maximum possible value of the slider
--   The default value is 250 pixels, except if the screen is too small. (refer previous point)
+    -   It should be noted that if a circle with a radius of 500 pixels extends past the edges of the screen, the program will lower the maximum possible value of the slider.
+-   The default value is 250 pixels, except if the screen is too small (refer previous point).
 
 ###### Slider(Multiplier):
 
 -   It allows the multiplier for the pencil drawing to be changed.
 -   The allowed range is 2 to 360, and the default value is 2.
 
-###### Slider(rotation):
+###### Slider(Rotation):
 
 -   It changes the orientation of the drawing, in real time.
--   It allows a range of values from 0&deg; to 360&deg;; The default being 0&deg;.
+-   It allows a range of values from 0&deg; to 360&deg;, the default being 0&deg;.
 
 ---
 
@@ -119,9 +122,9 @@ An epicycloid is the curve traced by a circle as it rolls on the outside of the 
 
 -   The folder can be downloaded [here]()-
 -   To get the program running on other devices, a local server is required.
--   [Python](https://www.python.org/downloads/release/python-385/ "Download Python here") is recommended, but other software can also be used (Note: This tutorial will only cover python).
--   First, open a terminal and `cd` to the folder in which the project files are contained
--   Next, check the version of python being used with the command
+-   [Python](https://www.python.org/downloads/release/python-385/ "Download Python here") is recommended, but other software can also be used (Note: This documentaion only covers python).
+-   First, open a terminal and `cd` to the folder in which the project files are contained.
+-   Next, check the version of python being used with the command-
     ```
     python -V
     ```
@@ -139,8 +142,8 @@ An epicycloid is the curve traced by a circle as it rolls on the outside of the 
     ```
     http://localhost:PORT_NUMBER
     ```
-    where the `PORT_NUMBER` is shown in the output of the command line where the server was created.
-    Note: Make sure there are no spaces in the URL
+    where the `PORT_NUMBER` is shown in the output of the command line where the server was created.  
+    Note: Make sure there are no spaces in the URL.
 
 ---
 
@@ -156,11 +159,21 @@ An epicycloid is the curve traced by a circle as it rolls on the outside of the 
 <tbody>
 <tr>
 <td style="text-align:left">1.</td>
+<td style="text-align:left">Download Folder</td>
+<td style="text-align:left"><a href="new_link_here">new_link_here</a></td>
+</tr>
+<tr>
+<td style="text-align:left">1.</td>
 <td style="text-align:left">Github Repository</td>
 <td style="text-align:left"><a href="https://github.com/TheIcyColdPenguin/Competion-Project-Cycloid">https://github.com/TheIcyColdPenguin/Competion-Project-Cycloid</a></td>
 </tr>
 <tr>
 <td style="text-align:left">2.</td>
+<td style="text-align:left">Download Python</td>
+<td style="text-align:left"><a href="https://www.python.org/downloads/release/python-385/">https://www.python.org/downloads/release/python-385/</a></td>
+</tr>
+<tr>
+<td style="text-align:left">3.</td>
 <td style="text-align:left">p5.js</td>
 <td style="text-align:left"><a href="https://p5js.org">https://p5js.org</a></td>
 </tr>
