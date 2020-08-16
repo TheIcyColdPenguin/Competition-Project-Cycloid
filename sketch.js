@@ -24,19 +24,12 @@ function setup() {
     textFont(assetTextFont, 16); //setting font as default, along with a comfortable font size
     smooth(); //turn on anti-aliasing
 
-    // theme = {
-    //     bgColor: color(221, 249, 193),
-    //     fgColor: color(83, 153, 135),
-    //     menuColor: color(205, 217, 244),
-    //     textColor: color(100, 100, 100),
-    // };
-
     theme = {
         bgColor: color(221, 249, 193),
         fgColor: color(83, 153, 135),
         menuColor: color(168, 218, 220),
         textColor: color(100, 100, 100),
-    };
+    }; //set theme
 
     //set defaults and initialize script
     angleMode(DEGREES);
@@ -194,7 +187,7 @@ function showMenuTextAndImage() {
     );
     text(
         `Multiplier -> ${sliders[1].value()}`,
-        xOffset + sliders[1].x + 20,
+        xOffset + sliders[1].x + 10,
         yOffset + sliders[1].y + 35
     );
     text(
